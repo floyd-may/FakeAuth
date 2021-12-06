@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FakeAuth</id>
+    <version>0.0.0-beta</version>
+    <authors>Caleb Jenkins</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>FakeAuth_128x128.png</icon>
+    <projectUrl>https://github.com/calebjenkins/fakeauth</projectUrl>
+    <description>a library to make local developement of OAuth or OIDC end points simpler.</description>
+    <copyright>Copyright Caleb Jenkins</copyright>
+    <tags>fakeauth oath oidc openid local development</tags>
+    <repository type="git" url="https://github.com/calebjenkins/fakeauth" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Authentication" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
